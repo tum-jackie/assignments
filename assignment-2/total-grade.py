@@ -4,5 +4,5 @@ def takes_dict(dict):
     print (new_sum)
             
 
-dict = {"math": 80, "eng": 60, "science": 90, "religion": 70}
-takes_dict(dict)
+grades = {"math": 80, "eng": 60, "science": 90, "religion": 70}
+takes_dict(grades)
