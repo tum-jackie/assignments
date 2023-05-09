@@ -1,10 +1,7 @@
-import os 
 import json
 import requests
 
-os.system("curl https://jsonplaceholder.typicode.com/users/1 > user.json") # curl command to get data from the url and save it in a file
-
-with open("user.json", "r") as f:
+with open("data.json", "r") as f:
     data = json.load(f)
     name = data["name"]
     email = data["email"]
